@@ -6,10 +6,10 @@ import com.university.universitymanagement.grade.entity.Grade;
 import com.university.universitymanagement.grade.repository.GradeRepository;
 import com.university.universitymanagement.student.service.StudentService;
 
-import org.springframework.http.HttpStatus;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.server.ResponseStatusException;
+
 
 import java.time.LocalDateTime;
 import java.util.List;
