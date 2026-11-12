@@ -1,0 +1,17 @@
+# Student Database
+app.datasource.student.jdbc-url=jdbc:postgresql://localhost:5432/student_db
+app.datasource.student.username=postgres
+app.datasource.student.password=${DB_PASSWORD}
+app.datasource.student.driver-class-name=org.postgresql.Driver
+
+# Course Database
+app.datasource.course.jdbc-url=jdbc:postgresql://localhost:5432/course_db
+app.datasource.course.username=postgres
+app.datasource.course.password=${DB_PASSWORD}
+app.datasource.course.driver-class-name=org.postgresql.Driver
+
+# Grade Database
+app.datasource.grade.jdbc-url=jdbc:postgresql://localhost:5432/grade_db
+app.datasource.grade.username=postgres
+app.datasource.grade.password=${DB_PASSWORD}
+app.datasource.grade.driver-class-name=org.postgresql.Driver

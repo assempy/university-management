@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS grades (
+    id BIGSERIAL PRIMARY KEY,
+    student_id BIGINT NOT NULL,
+    course_id BIGINT NOT NULL,
+    score INTEGER NOT NULL CHECK (score BETWEEN 0 AND 100),
+    letter_grade VARCHAR(10) NOT NULL,
+    graded_at TIMESTAMP NOT NULL
+);
